@@ -891,6 +891,8 @@ section {
     }
 
     .footer-logo {
+        display: block;
+        margin-bottom: 20px;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -899,9 +901,7 @@ section {
        
     }
 
-    .address {
-        margin-top: 20px;
-    }
+    
      
      .link:hover,
      .link:focus {
