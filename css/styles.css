@@ -1148,7 +1148,7 @@ section {
             justify-content: center;
             align-items: center;
 
-            background: var(--accent-txt-color);
+            background-color: var(--accent-txt-color);
             border-radius: 2px;
             width: 16px;
             height: 15px;
