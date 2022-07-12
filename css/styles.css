@@ -1131,9 +1131,15 @@ section {
 
 
 
-        .form-checkbox-input:checked + .form-checkbox-custom-checkbox {
+                .form-checkbox-icon {
+                    opacity: 0;
+                }
+
+        .form-checkbox-input:checked + .form-checkbox-custom-checkbox
+        .form-checkbox-icon {
             border: 2px solid var(--accent-txt-color);
             background-color: var(--accent-txt-color);
+            opacity: 1;
             
         }
 
@@ -1141,9 +1147,9 @@ section {
 
         
         
-        .form-checkbox-input:focus + .form-checkbox-custom-checkbox {
+        /* .form-checkbox-input:focus + .form-checkbox-custom-checkbox {
             border: 2px solid var(--accent-txt-color);
-        }
+        } */
 
 
         
@@ -1155,7 +1161,7 @@ section {
             justify-content: center;
             align-items: center;
 
-            background-color: var(--accent-txt-color);
+            
             border-radius: 2px;
             width: 16px;
             height: 15px;
@@ -1370,4 +1376,7 @@ section {
                 }
             
 
+            
+            
+                        
                 
