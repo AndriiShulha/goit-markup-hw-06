@@ -1136,7 +1136,7 @@ section {
                 }
 
         .form-checkbox-input:checked + .form-checkbox-custom-checkbox,
-        .form-checkbox-input:checked+.form-checkbox-custom-checkbox
+        .form-checkbox-input:checked + .form-checkbox-custom-checkbox
         .form-checkbox-icon {
             border: 2px solid var(--accent-txt-color);
             background-color: var(--accent-txt-color);
